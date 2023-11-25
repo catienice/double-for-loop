@@ -1,0 +1,16 @@
+var cookieJar1 = ['cookie 1 jar 1', 'cookie 2 jar 1', 'cookie 3 jar 1', 'cookie 4 jar 1', 'cookie 5 jar 1'];
+var cookieJar2 = ['cookie 1 jar 2', 'cookie 2 jar 2', 'cookie 3 jar 2', 'cookie 4 jar 2', 'cookie 5 jar 2'];
+var cookieJar3 = ['cookie 1 jar 3', 'cookie 2 jar 3', 'cookie 3 jar 3', 'cookie 4 jar 3', 'cookie 5 jar 3'];
+
+var neighbors = [cookieJar1, cookieJar2, cookieJar3];
+
+for (let i = 0; i < neighbors.length; i++) {
+       const jar = neighbors[i];
+
+       for (let j = 0; j < jar.length; j++) {
+        const cookie = jar[j];
+
+        console.log(cookie);
+
+       }
+    }
